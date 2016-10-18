@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[landscape,twocolumn,margin=1cm]{geometry}
+\usepackage{listings}
+\usepackage{color}
+
+\lstset{%
+    showstringspaces=false,
+    columns=flexible,
+    numbers=left,
+    xleftmargin=2em,
+    title=\lstname,
+    belowcaptionskip=1\baselineskip,
+    breaklines=true,
+    frame=L,
+    xleftmargin=\parindent,
+    language=C,
+    showstringspaces=false,
+    basicstyle=\footnotesize\ttfamily,
+}
+
+
+\begin{document}
+
+\lstinputlisting{main.c}
+
+\lstinputlisting{graph.h}
+\lstinputlisting{graph.c}
+
+\lstinputlisting{graph_functions.h}
+\lstinputlisting{graph_functions.c}
+
+\lstinputlisting{vector.h}
+\lstinputlisting{vector.c}
+
+
+\end{document}
